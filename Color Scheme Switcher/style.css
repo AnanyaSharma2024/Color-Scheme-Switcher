@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Main container */
+.canvas {
+    /* height: calc(100vh - 60px); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+/* Heading */
+.canvas h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Color buttons container */
+.button {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Individual colors */
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+/* Hover effect */
+.button:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease;
+}
+
+/* Text */
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+h2 span {
+    display: block;
+    font-size: 14px;
+    color: #444;
+}
